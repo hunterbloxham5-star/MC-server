@@ -5,28 +5,28 @@
       "category": "Gameplay",
       "side": "Server + client",
       "note": "Requires Citadel",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Alex's%20Mobs"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs/files/all?version=1.20.1"
     },
     {
       "name": "Mowzie's Mobs",
       "category": "Gameplay",
       "side": "Server + client",
       "note": "Requires GeckoLib",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Mowzie's%20Mobs"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs/files/all?version=1.20.1"
     },
     {
       "name": "The Twilight Forest",
       "category": "Gameplay",
       "side": "Server + client",
       "note": "Dimension and progression content",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Twilight%20Forest"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/all?version=1.20.1"
     },
     {
       "name": "Cracker's Wither Storm Mod",
       "category": "Gameplay",
       "side": "Server + client",
       "note": "Confirm Forge 1.20.1 file",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Cracker's%20Wither%20Storm%20Mod"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crackers-wither-storm-mod/files/all?version=1.20.1"
     },
     {
       "name": "MrCrayfish's Furniture Mod: Refurbished",
@@ -47,14 +47,14 @@
       "category": "Gameplay",
       "side": "Server + client",
       "note": "Weapons of Miracles needs a compatible Epic Fight build",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Epic%20Fight"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod/files/all?version=1.20.1"
     },
     {
       "name": "Weapons of Miracles",
       "category": "Gameplay",
       "side": "Server + client",
       "note": "Epic Fight add-on",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Weapons%20of%20Miracles"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/weapons-of-miracles-epicfight/files/all?version=1.20.1"
     },
     {
       "name": "P1nero's Epic Bow",
@@ -82,7 +82,7 @@
       "category": "Libraries",
       "side": "Server + client",
       "note": "Library dependency",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Framework"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/framework/files/all?version=1.20.1"
     },
     {
       "name": "Cloth Config API",
@@ -103,7 +103,7 @@
       "category": "Libraries",
       "side": "Server + client",
       "note": "Animation library",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=GeckoLib"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib/files/all?version=1.20.1"
     },
     {
       "name": "Fast Noise",
@@ -131,7 +131,7 @@
       "category": "Libraries",
       "side": "Server + client",
       "note": "Alex's Mobs dependency",
-      "url": "https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&search=Citadel"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/citadel/files/all?version=1.20.1"
     },
     {
       "name": "AppleSkin",
