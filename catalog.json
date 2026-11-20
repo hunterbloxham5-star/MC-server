@@ -40,7 +40,7 @@
       "category": "Gameplay",
       "side": "Server + client",
       "note": "Requires Cerbon's API, GeckoLib and Cloth Config",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge"
     },
     {
       "name": "Epic Fight",
@@ -110,7 +110,7 @@
       "category": "Libraries",
       "side": "Server + client",
       "note": "Verify exact Forge build",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/fast-noise"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/zfastnoise"
     },
     {
       "name": "Kotlin for Forge",
@@ -201,14 +201,14 @@
       "category": "Client performance & UI",
       "side": "Server + client",
       "note": "Use only compatible Forge 1.20.1 build; test carefully",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/c2me-forge"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/c2mer"
     },
     {
       "name": "Debugify Reforge",
       "category": "Client performance & UI",
       "side": "Client + server",
       "note": "Verify exact Forge file",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/debugify-reforged"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/debugify-reforge"
     },
     {
       "name": "Entity Model Features",
