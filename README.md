@@ -1,58 +1,51 @@
-# MC Server — Minecraft Mod Guide
+# MC Server — Player Guide
 
-Player guide for the community server targeting **Minecraft Java 1.20.1 / Forge 47.4.28**.
+Player setup guide for the community Minecraft Java server.
 
-## Player setup
+## Required versions
 
-1. Install Minecraft Java Edition using the official launcher.
-2. Install **Minecraft 1.20.1 — Forge 47.4.28** and choose **Install client**.
-3. Add shared mods only when the server admin confirms they are installed on the server. The catalog is not a confirmed live-server mod list; the last production-server inspection found no mod JARs in its mods folder.
-4. Install the two required client-side visual support mods below.
-5. Launch the Forge 1.20.1 profile, join the server, and accept the required resource-pack prompt.
+- Minecraft Java Edition **1.20.1**
+- **Minecraft Forge 47.4.28**
+- Java 17
 
-### Required client-side visual support
+Use the Forge profile, not Fabric or NeoForge.
 
-These mods are required for the combined pack's Fresh Animations models and textures. They belong in the player's client `%appdata%\\.minecraft\\mods` folder; they are not server-side requirements.
+## Complete client pack
 
-| Mod | Tested version | Purpose |
-| --- | --- | --- |
-| Entity Model Features (EMF) | 3.3.10 for Forge 1.20.1 | Custom entity models |
-| Entity Texture Features (ETF) | 7.2.6 for Forge 1.20.1 | Custom entity textures and Fresh Animations support |
+The complete client package contains the tested client mods, resource packs, shader packs, and setup notes for this server.
 
-Forge alone does not provide the custom entity model support Fresh Animations needs. The player guide separates these required visual dependencies from optional client enhancements.
+- Package: `Minecraft-Client-1.20.1-Forge-47.4.28.zip`
+- Target: Minecraft 1.20.1 / Forge 47.4.28
+- Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
+- Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
-## Required combined server resource pack
+**[Download the complete client pack](https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip)**
 
-The production server is configured to require and automatically send the combined resource pack when players connect.
+If the link is not available yet, the client-pack release has not been published.
 
-- File: `Combined-Resource-Pack-1.20.1-CANDIDATE.zip`
-- Minecraft: 1.20.1
-- Size: 2,890,033 bytes
-- SHA-1: `4565c38384cdf0e499968b4cab1abb01d0161000`
-- Includes Fresh Animations Base + Details, Enhanced Boss Bars, Recolourful Containers GUI + HUD, and Bushy Pink Petals, Wildflowers & Leaf Litter assets.
-- Fresh Animations requires EMF and ETF on each player's client.
-- [Download the combined resource pack (ZIP)](https://github.com/hunterbloxham5-star/MC-server/releases/download/resource-pack-1.20.1-v1/Combined-Resource-Pack-1.20.1-CANDIDATE.zip).
-- [View the GitHub Release](https://github.com/hunterbloxham5-star/MC-server/releases/tag/resource-pack-1.20.1-v1).
-- The production server also sends the required pack automatically when players join.
+## Joining the server
 
-## Compatibility and catalog notes
+1. Install Minecraft Java Edition.
+2. Install Minecraft 1.20.1 with Forge 47.4.28 (client installation).
+3. Download and install the complete client pack above.
+4. Launch the Forge 1.20.1 profile.
+5. Join the server and accept the required server resource-pack prompt.
 
-- `catalog.json` contains searchable mods, resource packs, and shaders.
-- Entries marked **Both sides** require matching client and server files when the mod is selected for the server; players should download those entries only after the admin confirms they are installed server-side.
-- **Server only** entries do not belong in a player's mods folder and have no player download link.
-- Optional client/server performance mods can be installed independently and are not connection requirements.
-- Client-only enhancements belong on the player's client, not the dedicated server.
-- The production server's last inspected `mods` folder was empty, so this catalog is not yet a live-server lockfile.
-- The original ImmediatelyFast build tagged for Minecraft 1.20.4 and the unresolved WaterMedia / WaterFrames group are held back.
-- Do not use Fabric, NeoForge, or files for another Minecraft version.
+The server automatically sends its required combined resource pack when you connect. Make sure **Server Resource Packs** is set to Enabled or Prompt in the server entry's settings.
 
-## Enable GitHub Pages
+## Optional shaders
 
-1. Open repository **Settings → Pages**.
-2. Under **Build and deployment**, select **GitHub Actions**.
-3. The included workflow deploys the site on pushes to `main`.
-4. Expected URL after a successful deployment: https://hunterbloxham5-star.github.io/MC-server/.
+The package includes optional shader packs and the shader support mods. Shaders are not required to join. If enabling a shader causes a crash or rendering issue, turn shaders off and launch again; the game can be played without them.
 
-## Local preview
+## Troubleshooting
 
-Run `python -m http.server 8000` in this folder, then visit http://localhost:8000/.
+- **Missing mods / incompatible modded server:** confirm Minecraft 1.20.1 and Forge 47.4.28, and make sure you installed the complete client pack rather than mixing files from other modpacks.
+- **Game crashes on launch:** temporarily move shader packs out of the shaderpacks folder and disable shaders. If it still crashes, share the newest file from `.minecraft\\crash-reports` or `.minecraft\\logs\\latest.log`.
+- **Fresh Animations or entity visuals do not work:** confirm the included client visual-support mods are present and the server resource pack is enabled.
+- **Resource pack does not download:** in the launcher server list, edit the server and set Server Resource Packs to Enabled or Prompt, then reconnect.
+
+## Project site
+
+GitHub Pages: https://hunterbloxham5-star.github.io/MC-server/
+
+This is an unofficial community guide and is not affiliated with Mojang or Microsoft.
