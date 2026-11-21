@@ -14,13 +14,13 @@ Use the Forge profile, not Fabric or NeoForge.
 
 The complete client package contains the client mods and dependencies, resource packs, optional shaders, and setup notes for this server.
 
-- Package: `Minecraft-Client-1.20.1-Forge-47.4.28.zip`
+- Package: `Minecraft-Client-1.20.1-Forge-47.4.28-UPDATED.zip`
 - Target: Minecraft 1.20.1 / Forge 47.4.28
 - Contents: 52 mod/dependency JARs, 8 resource packs, and 2 optional shader packs.
 - Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
 - Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
-**[Download the complete client pack](https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip)**
+**[Download the complete client pack](https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28-UPDATED.zip)**
 
 The release is updated in place when a revised client package is published. If the download is temporarily unavailable, check the [client-pack release page](https://github.com/hunterbloxham5-star/MC-server/releases/tag/client-pack-1.20.1-forge-47.4.28).
 
