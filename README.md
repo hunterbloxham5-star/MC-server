@@ -16,7 +16,10 @@ The complete client package contains the client mods and dependencies, resource 
 
 - Package: `Minecraft-Client-1.20.1-Forge-47.4.28-UPDATED.zip`
 - Target: Minecraft 1.20.1 / Forge 47.4.28
-- Contents: 52 mod/dependency JARs, 8 resource packs, and 2 optional shader packs.
+- Contents: **54 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
+- Required dependencies include Patchouli 1.20.1-85-FORGE and Caelus 3.2.0+1.20.1.
+- Package size: **267,699,689 bytes** (approximately 255.3 MiB).
+- SHA-256: `3a331faf8172903c196b063bda29ab9a509402261f1f60c64347a711bc6c4c44`
 - Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
 - Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
@@ -51,7 +54,7 @@ The package includes optional shader packs and the shader support mods. Shaders 
 
 ## Troubleshooting
 
-- **Missing mods / incompatible modded server:** confirm Minecraft 1.20.1 and Forge 47.4.28, and make sure you installed the complete client pack rather than mixing files from other modpacks.
+- **Missing mods / incompatible modded server:** confirm Minecraft 1.20.1 and Forge 47.4.28, and make sure you installed the complete client pack rather than mixing files from other modpacks. The client pack includes Patchouli and Caelus, which are required by the server's mod set.
 - **Game crashes on launch:** temporarily move shader packs out of the shaderpacks folder and disable shaders. If it still crashes, share the newest file from `.minecraft\\crash-reports` or `.minecraft\\logs\\latest.log`.
 - **Fresh Animations or entity visuals do not work:** confirm the included client visual-support mods are present and the server resource pack is enabled.
 - **Resource pack does not download:** in the launcher server list, edit the server and set Server Resource Packs to Enabled or Prompt, then reconnect.
