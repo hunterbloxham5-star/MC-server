@@ -122,9 +122,9 @@
     },
     {
       "name": "Fast Noise",
-      "category": "Client performance & UI",
+      "category": "Server performance",
       "side": "Server only",
-      "note": "Server-only world-generation optimization; Forge 1.20.1 build exists, but is optional and not part of the confirmed live-server mod list.",
+      "note": "Server-only world-generation optimization. Forge 1.20.1 file: 1.0.13+1.20+forge. Optional; not confirmed on the live server.",
       "playerDownload": false
     },
     {
@@ -195,7 +195,7 @@
       "name": "ModernFix",
       "category": "Client performance & UI",
       "side": "Client and server optional",
-      "note": "Install matching version on both sides",
+      "note": "Optional performance and bug-fix mod; can be installed independently on the client, server, or both.",
       "url": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
       "playerDownload": true
     },
@@ -209,7 +209,7 @@
     },
     {
       "name": "Clumps",
-      "category": "Client performance & UI",
+      "category": "Server performance",
       "side": "Server only",
       "note": "Server-only for Minecraft 1.17 and newer; players do not install it.",
       "playerDownload": false
