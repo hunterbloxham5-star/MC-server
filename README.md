@@ -12,16 +12,28 @@ Use the Forge profile, not Fabric or NeoForge.
 
 ## Complete client pack
 
-The complete client package contains the tested client mods, resource packs, shader packs, and setup notes for this server.
+The complete client package contains the client mods and dependencies, resource packs, optional shaders, and setup notes for this server.
 
 - Package: `Minecraft-Client-1.20.1-Forge-47.4.28.zip`
 - Target: Minecraft 1.20.1 / Forge 47.4.28
+- Contents: 52 mod/dependency JARs, 8 resource packs, and 2 optional shader packs.
 - Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
 - Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
 **[Download the complete client pack](https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip)**
 
-If the link is not available yet, the client-pack release has not been published.
+The release is updated in place when a revised client package is published. If the download is temporarily unavailable, check the [client-pack release page](https://github.com/hunterbloxham5-star/MC-server/releases/tag/client-pack-1.20.1-forge-47.4.28).
+
+### Fresh Animations resource packs
+
+The pack includes Fresh Animations v1.10.4 and seven compatible add-ons.
+
+Choose **one** of these setups in Minecraft's Resource Packs menu:
+
+- **Individual add-ons:** Fresh Animations, Details, Emissive, Creepers, Classic Horses, Objects, and Spiders.
+- **Combined add-ons:** Fresh Animations plus All Extensions.
+
+Do not enable All Extensions at the same time as the individual add-ons, because their content overlaps. Place the add-on pack(s) above Fresh Animations in the resource-pack priority list. Entity Model Features (EMF) and Entity Texture Features (ETF) are included and should remain enabled.
 
 ## Joining the server
 
