@@ -31,7 +31,9 @@ The production server is configured to require and automatically send the combin
 - SHA-1: `4565c38384cdf0e499968b4cab1abb01d0161000`
 - Includes Fresh Animations Base + Details, Enhanced Boss Bars, Recolourful Containers GUI + HUD, and Bushy Pink Petals, Wildflowers & Leaf Litter assets.
 - Fresh Animations requires EMF and ETF on each player's client.
-- The live server currently delivers the pack on join. A standalone GitHub-hosted ZIP mirror is still pending publication.
+- [Download the combined resource pack (ZIP)](https://github.com/hunterbloxham5-star/MC-server/releases/download/resource-pack-1.20.1-v1/Combined-Resource-Pack-1.20.1-CANDIDATE.zip).
+- [View the GitHub Release](https://github.com/hunterbloxham5-star/MC-server/releases/tag/resource-pack-1.20.1-v1).
+- The production server also sends the required pack automatically when players join.
 
 ## Compatibility and catalog notes
 
