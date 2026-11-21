@@ -14,16 +14,16 @@ Use the Forge profile, not Fabric or NeoForge.
 
 The complete client package contains the client mods and dependencies, resource packs, optional shaders, and setup notes for this server.
 
-- Package: `Minecraft-Client-1.20.1-Forge-47.4.28-UPDATED.zip`
+- Package: `Minecraft-Client-1.20.1-Forge-47.4.28.zip`
 - Target: Minecraft 1.20.1 / Forge 47.4.28
-- Contents: **54 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
+- Contents: **56 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
 - Required dependencies include Patchouli 1.20.1-85-FORGE and Caelus 3.2.0+1.20.1.
-- Package size: **267,699,689 bytes** (approximately 255.3 MiB).
-- SHA-256: `3a331faf8172903c196b063bda29ab9a509402261f1f60c64347a711bc6c4c44`
+- Package size: **269,327,922 bytes** (approximately 256.9 MiB).
+- SHA-256: `c9dc6c7d191798281ce760aec79706e4e3f247cbdd288753d3a7596da1ad8fb8`
 - Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
 - Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
-**[Download the complete client pack](https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28-UPDATED.zip)**
+**[Download the complete client pack](https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip)**
 
 The release is updated in place when a revised client package is published. If the download is temporarily unavailable, check the [client-pack release page](https://github.com/hunterbloxham5-star/MC-server/releases/tag/client-pack-1.20.1-forge-47.4.28).
 
