@@ -6,7 +6,7 @@ Player guide for the community server targeting **Minecraft Java 1.20.1 / Forge 
 
 1. Install Minecraft Java Edition using the official launcher.
 2. Install **Minecraft 1.20.1 — Forge 47.4.28** and choose **Install client**.
-3. Add the compatible shared mods listed in the site catalog when the server mod audit confirms the required set.
+3. Add shared mods only when the server admin confirms they are installed on the server. The catalog is not a confirmed live-server mod list; the last production-server inspection found no mod JARs in its mods folder.
 4. Install the two required client-side visual support mods below.
 5. Launch the Forge 1.20.1 profile, join the server, and accept the required resource-pack prompt.
 
@@ -38,8 +38,11 @@ The production server is configured to require and automatically send the combin
 ## Compatibility and catalog notes
 
 - `catalog.json` contains searchable mods, resource packs, and shaders.
-- Entries marked server + client are candidates, not a verified file-by-file lockfile. Confirm the production server's installed mods and each project's Forge 1.20.1 file before treating them as mandatory.
-- Client-only enhancements should not be copied to the dedicated server unless the mod documentation explicitly requires it.
+- Entries marked **Both sides** require matching client and server files when the mod is selected for the server; players should download those entries only after the admin confirms they are installed server-side.
+- **Server only** entries do not belong in a player's mods folder and have no player download link.
+- Optional client/server performance mods can be installed independently and are not connection requirements.
+- Client-only enhancements belong on the player's client, not the dedicated server.
+- The production server's last inspected `mods` folder was empty, so this catalog is not yet a live-server lockfile.
 - The original ImmediatelyFast build tagged for Minecraft 1.20.4 and the unresolved WaterMedia / WaterFrames group are held back.
 - Do not use Fabric, NeoForge, or files for another Minecraft version.
 
