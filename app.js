@@ -9,8 +9,10 @@ async function start(){
   const term=q.value.toLowerCase(),c=cat.value;
   const rows=d.mods.filter(m=>(c==='all'||m.category===c)&&[m.name,m.category,m.side,m.note].join(' ').toLowerCase().includes(term));
   const sharedRows=rows.filter(m=>/server/i.test(m.side));
-  const requiredClientRows=rows.filter(m=>/client only/i.test(m.side)&&m.required===true);\n  const clientRows=rows.filter(m=>/client only/i.test(m.side)&&m.required!==true);
+  const requiredClientRows=rows.filter(m=>/client only/i.test(m.side)&&m.required===true);
+  const clientRows=rows.filter(m=>/client only/i.test(m.side)&&m.required!==true);
   shared.innerHTML=sharedRows.map(m=>card(m,'shared')).join('');
+  requiredClient.innerHTML=requiredClientRows.map(m=>card(m,'client')).join('');
   client.innerHTML=clientRows.map(m=>card(m,'client')).join('');
   count.textContent=rows.length+' mods · '+sharedRows.length+' shared candidates · '+requiredClientRows.length+' required client support · '+clientRows.length+' optional client';
  }
