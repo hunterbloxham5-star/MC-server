@@ -214,15 +214,17 @@
       "name": "Entity Model Features",
       "category": "Client performance & UI",
       "side": "Client only",
-      "note": "Fresh Animations entity model support",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features"
+      "note": "Required client-side support for Fresh Animations; tested with Forge 1.20.1 (version 3.3.10).",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features",
+      "required": true
     },
     {
       "name": "Entity Texture Features",
       "category": "Client performance & UI",
       "side": "Client only",
-      "note": "Fresh Animations texture support",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features"
+      "note": "Required client-side support for Fresh Animations textures; tested with Forge 1.20.1 (version 7.2.6).",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features",
+      "required": true
     },
     {
       "name": "Sodium/Embeddium Options API",
@@ -263,7 +265,7 @@
   "resourcePacks": [
     {
       "name": "Fresh Animations",
-      "note": "Optional; requires EMF and ETF",
+      "note": "Included in the required combined server resource pack; client requires EMF + ETF.",
       "url": "https://www.curseforge.com/minecraft/texture-packs/fresh-animations"
     },
     {
@@ -273,7 +275,7 @@
     },
     {
       "name": "Fresh Animations: Details",
-      "note": "Optional add-on",
+      "note": "Included in the combined server pack alongside Fresh Animations Base.",
       "url": "https://www.curseforge.com/minecraft/texture-packs/fresh-animations-details"
     },
     {
