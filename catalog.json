@@ -123,10 +123,9 @@
     {
       "name": "Fast Noise",
       "category": "Client performance & UI",
-      "side": "Client and server optional",
-      "note": "Optional world-generation optimization; verify the exact Forge 1.20.1 file before use.",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/zfastnoise",
-      "playerDownload": true
+      "side": "Server only",
+      "note": "Server-only world-generation optimization; Forge 1.20.1 build exists, but is optional and not part of the confirmed live-server mod list.",
+      "playerDownload": false
     },
     {
       "name": "Kotlin for Forge",
