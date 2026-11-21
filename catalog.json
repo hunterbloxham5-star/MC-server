@@ -3,212 +3,241 @@
     {
       "name": "Alex's Mobs",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Requires Citadel",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs",
+      "playerDownload": true
     },
     {
       "name": "Mowzie's Mobs",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Requires GeckoLib",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
+      "playerDownload": true
     },
     {
       "name": "The Twilight Forest",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Dimension and progression content",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
+      "playerDownload": true
     },
     {
       "name": "Cracker's Wither Storm Mod",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Confirm Forge 1.20.1 file",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/crackers-wither-storm-mod"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crackers-wither-storm-mod",
+      "playerDownload": true
     },
     {
       "name": "MrCrayfish's Furniture Mod: Refurbished",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Requires Framework",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
+      "playerDownload": true
     },
     {
       "name": "Bosses of Mass Destruction",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Requires Cerbon's API, GeckoLib and Cloth Config",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge",
+      "playerDownload": true
     },
     {
       "name": "Epic Fight",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Weapons of Miracles needs a compatible Epic Fight build",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod",
+      "playerDownload": true
     },
     {
       "name": "Weapons of Miracles",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Epic Fight add-on",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/weapons-of-miracles-epicfight"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/weapons-of-miracles-epicfight",
+      "playerDownload": true
     },
     {
       "name": "P1nero's Epic Bow",
       "category": "Gameplay",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Requires compatible Epic Fight version",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/p1neros-epic-bow"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/p1neros-epic-bow",
+      "playerDownload": true
     },
     {
       "name": "Fzzy Config",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Configuration library",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/fzzy-config"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fzzy-config",
+      "playerDownload": true
     },
     {
       "name": "CreativeCore",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Library dependency",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
+      "playerDownload": true
     },
     {
       "name": "Framework",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Library dependency",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/framework"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/framework",
+      "playerDownload": true
     },
     {
       "name": "Cloth Config API",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Library dependency",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "playerDownload": true
     },
     {
       "name": "Cerbon's API",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Bosses of Mass Destruction dependency",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api",
+      "playerDownload": true
     },
     {
       "name": "GeckoLib",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Animation library",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+      "playerDownload": true
     },
     {
       "name": "Fast Noise",
-      "category": "Libraries",
-      "side": "Server + client",
-      "note": "Verify exact Forge build",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/zfastnoise"
+      "category": "Client performance & UI",
+      "side": "Client and server optional",
+      "note": "Optional world-generation optimization; verify the exact Forge 1.20.1 file before use.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/zfastnoise",
+      "playerDownload": true
     },
     {
       "name": "Kotlin for Forge",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Kotlin runtime for Forge mods",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+      "playerDownload": true
     },
     {
       "name": "Bookshelf",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Library dependency",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+      "playerDownload": true
     },
     {
       "name": "Citadel",
       "category": "Libraries",
-      "side": "Server + client",
+      "side": "Both sides",
       "note": "Alex's Mobs dependency",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/citadel"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/citadel",
+      "playerDownload": true
     },
     {
       "name": "AppleSkin",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "HUD information",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+      "playerDownload": true
     },
     {
       "name": "BadOptimizations",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Client performance optimization",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/badoptimizations"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/badoptimizations",
+      "playerDownload": true
     },
     {
       "name": "Embeddium",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Rendering performance; shaders also need Oculus",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/embeddium"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+      "playerDownload": true
     },
     {
       "name": "Enchantment Descriptions",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Enchantment details",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions",
+      "playerDownload": true
     },
     {
       "name": "Particle Core",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Particle improvements",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/particle-core"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/particle-core",
+      "playerDownload": true
     },
     {
       "name": "ModernFix",
       "category": "Client performance & UI",
-      "side": "Client + server",
+      "side": "Client and server optional",
       "note": "Install matching version on both sides",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/modernfix"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
+      "playerDownload": true
     },
     {
       "name": "Jade",
       "category": "Client performance & UI",
-      "side": "Client + server",
-      "note": "Information overlay; check project side requirements",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/jade"
+      "side": "Client only",
+      "note": "Client HUD; server installation is optional for additional synced information.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+      "playerDownload": true
     },
     {
       "name": "Clumps",
       "category": "Client performance & UI",
-      "side": "Client + server",
-      "note": "XP orb grouping",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/clumps"
+      "side": "Server only",
+      "note": "Server-only for Minecraft 1.17 and newer; players do not install it.",
+      "playerDownload": false
     },
     {
       "name": "FerriteCore",
       "category": "Client performance & UI",
-      "side": "Client + server",
+      "side": "Client and server optional",
       "note": "Memory optimization",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+      "playerDownload": true
     },
     {
       "name": "Concurrent Chunk Management Engine (C2ME)",
       "category": "Client performance & UI",
-      "side": "Server + client",
+      "side": "Client and server optional",
       "note": "Use only compatible Forge 1.20.1 build; test carefully",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/c2mer"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/c2mer",
+      "playerDownload": true
     },
     {
       "name": "Debugify Reforge",
       "category": "Client performance & UI",
-      "side": "Client + server",
+      "side": "Client and server optional",
       "note": "Verify exact Forge file",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/debugify-reforge"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/debugify-reforge",
+      "playerDownload": true
     },
     {
       "name": "Entity Model Features",
@@ -216,7 +245,8 @@
       "side": "Client only",
       "note": "Required client-side support for Fresh Animations; tested with Forge 1.20.1 (version 3.3.10).",
       "url": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features",
-      "required": true
+      "required": true,
+      "playerDownload": true
     },
     {
       "name": "Entity Texture Features",
@@ -224,42 +254,48 @@
       "side": "Client only",
       "note": "Required client-side support for Fresh Animations textures; tested with Forge 1.20.1 (version 7.2.6).",
       "url": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features",
-      "required": true
+      "required": true,
+      "playerDownload": true
     },
     {
       "name": "Sodium/Embeddium Options API",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Options integration library",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/sodium-options-api"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sodium-options-api",
+      "playerDownload": true
     },
     {
       "name": "Sodium/Embeddium Extras",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Extra graphics settings",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/sodium-embeddium-extras"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sodium-embeddium-extras",
+      "playerDownload": true
     },
     {
       "name": "Mouse Tweaks",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Inventory mouse controls",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "playerDownload": true
     },
     {
       "name": "JEI",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Recipe and item viewer",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/jei"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "playerDownload": true
     },
     {
       "name": "Ksyxis",
       "category": "Client performance & UI",
       "side": "Client only",
       "note": "Verify Forge 1.20.1 file",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/ksyxis"
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ksyxis",
+      "playerDownload": true
     }
   ],
   "resourcePacks": [
