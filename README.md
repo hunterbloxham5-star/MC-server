@@ -16,10 +16,10 @@ The complete client package contains the client mods and dependencies, resource 
 
 - Package: `Minecraft-Client-1.20.1-Forge-47.4.28.zip`
 - Target: Minecraft 1.20.1 / Forge 47.4.28
-- Contents: **53 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
+- Contents: **58 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
 - Required dependencies include Patchouli 1.20.1-85-FORGE and Caelus 3.2.0+1.20.1.
-- Package size: **267,636,525 bytes** (approximately 255.2 MiB).
-- SHA-256: `d72e537f9b0ea1d398d9ec386fef7f7b54d7fd53d999e69939288b99c8a9e118`
+- Package size: **270,634,918 bytes** (approximately 258.1 MiB).
+- SHA-256: `db7774421c9580ef776489b13999f707fa977c06c4faa21101838c60d995bbb8`
 - Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
 - Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
@@ -38,9 +38,9 @@ Fresh Mobs for Epic Fight **1.0.0** is included in this client pack. It provides
 - This mod is also installed on the server; players should install the included client copy.
 
 
-## Server-side mods
+## Server mods and features
 
-The following gameplay and world-feature mods are installed on the server. They are listed for transparency and to show what features the server provides; **players do not need to download or install these server-only mods**:
+The following gameplay and world-feature mods are installed on the server. Several also have client-side components, and the matching client files are already included in the complete ZIP. **Do not download these separately or add duplicate copies.**
 
 - Artifacts
 - Curios API
@@ -55,7 +55,7 @@ The following gameplay and world-feature mods are installed on the server. They 
 - Traveler's Backpack
 - Vein Mining
 
-Only install the complete client pack described above. Do not add server-only mods to your client manually.
+Install the complete client pack described above. It supplies the client-side files needed by the modded server; no separate server-mod downloads are required.
 
 ### Fresh Animations resource packs
 
