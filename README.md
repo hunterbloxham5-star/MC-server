@@ -37,6 +37,26 @@ Fresh Mobs for Epic Fight **1.0.0** is included in this client pack. It provides
 - Download source: [Fresh Mobs for Epic Fight on CurseForge](https://www.curseforge.com/minecraft/mc-mods/fresh-mobs-for-epic-fight)
 - This mod is also installed on the server; players should install the included client copy.
 
+
+## Server-side mods
+
+The following gameplay and world-feature mods are installed on the server. They are listed for transparency and to show what features the server provides; **players do not need to download or install these server-only mods**:
+
+- Artifacts
+- Curios API
+- ExpandAbility
+- Architectury API
+- Balm
+- Waystones
+- Blueprint
+- Oreganized
+- Galosphere
+- Terramity
+- Traveler's Backpack
+- Vein Mining
+
+Only install the complete client pack described above. Do not add server-only mods to your client manually.
+
 ### Fresh Animations resource packs
 
 The pack includes Fresh Animations v1.10.4 and seven compatible add-ons.
