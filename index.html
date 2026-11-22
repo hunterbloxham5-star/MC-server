@@ -4,71 +4,145 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#10151d">
-<meta name="description" content="Complete client pack and setup guide for the Minecraft 1.20.1 Forge community server.">
+<meta name="description" content="Download and install the complete Minecraft 1.20.1 Forge 47.4.28 community server client pack.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MC Server — Player Setup">
+<meta property="og:description" content="One verified client pack for the Minecraft 1.20.1 Forge community server.">
+<meta property="og:url" content="https://hunterbloxham5-star.github.io/MC-server/">
 <title>MC Server — Player Setup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="hero">
-  <nav><a class="brand" href="#">✦ MC SERVER</a><a href="#client-pack">Client pack</a><a href="#install">Installation</a><a href="#help">Help</a></nav>
+<header class="hero" id="top">
+  <nav aria-label="Main navigation">
+    <a class="brand" href="#top">✦ MC SERVER</a>
+    <a href="#client-pack">Client pack</a>
+    <a href="#install">Installation</a>
+    <a href="#visuals">Resource packs</a>
+    <a href="#help">Help</a>
+  </nav>
   <div class="hero-inner">
-    <p class="eyebrow">COMMUNITY SERVER • JAVA EDITION</p>
+    <p class="eyebrow">COMMUNITY SERVER · JAVA EDITION</p>
     <h1>One pack.<br><span>Ready to play.</span></h1>
-    <p class="lead">The complete client-side setup for our modded Minecraft server—mods, resource packs, shaders, and instructions in one ZIP.</p>
+    <p class="lead">Everything you need for our modded Minecraft server—client mods, dependencies, resource packs, optional shaders, and straightforward setup instructions in one download.</p>
     <div class="pills"><span>Minecraft 1.20.1</span><span>Forge 47.4.28</span><span>Java 17</span></div>
-    <a class="primary" href="#client-pack">Get the client pack <b>↘</b></a>
+    <a class="primary" href="#client-pack">Get the client pack <span aria-hidden="true">↓</span></a>
   </div>
 </header>
+
 <main>
-<section class="notice"><b>!</b><div><strong>Use the exact game version</strong><p>This server uses Minecraft Java 1.20.1 with Forge 47.4.28. Do not launch with Fabric, NeoForge, or a different Minecraft version.</p></div></section>
+<section class="notice" aria-label="Version requirement">
+  <span class="notice-icon" aria-hidden="true">!</span>
+  <div><strong>Use the exact game version</strong><p>This server requires Minecraft Java Edition 1.20.1 with Forge 47.4.28. Do not launch with Fabric, NeoForge, or another Minecraft version.</p></div>
+</section>
 
 <section id="client-pack" class="section">
   <p class="eyebrow">01 / COMPLETE DOWNLOAD</p>
   <h2>Everything you need in one ZIP.</h2>
-  <p class="sub">Use the complete client pack instead of downloading individual mods or resource packs. It contains the client files prepared for this server.</p>
-  <div class="pack-card">
-    <div class="tag">CLIENT PACK · MINECRAFT 1.20.1</div>
-    <h3>Minecraft Client Pack — Forge 47.4.28</h3>
-    <p>Includes 56 mod and dependency JARs, 8 resource packs, and 2 optional shader packs.</p>
-    <p><b>File:</b> <code>Minecraft-Client-1.20.1-Forge-47.4.28.zip</code></p>
-    <p><b>Download size:</b> 256.9 MiB</p>
-    <p><a class="primary" href="https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip">Download complete client pack ↗</a></p>
-    <p class="muted">The link points to the current published client package. Check the <a href="https://github.com/hunterbloxham5-star/MC-server/releases/tag/client-pack-1.20.1-forge-47.4.28">release page</a> for package updates.</p>
+  <p class="sub">Use this complete package rather than downloading individual mods. It is the tested client setup for this server.</p>
+  <div class="pack-layout">
+    <div class="pack-card">
+      <div class="tag">CURRENT CLIENT PACK</div>
+      <h3>Minecraft Client Pack</h3>
+      <p class="pack-version">Minecraft 1.20.1 <span>·</span> Forge 47.4.28</p>
+      <p>Includes the client mods and dependencies, resource packs, and optional shader packs.</p>
+      <div class="pack-stats" aria-label="Package contents">
+        <div><strong>56</strong><span>Mods &amp; dependencies</span></div>
+        <div><strong>8</strong><span>Resource packs</span></div>
+        <div><strong>2</strong><span>Optional shaders</span></div>
+      </div>
+      <p class="file-name"><span>ZIP file</span><code>Minecraft-Client-1.20.1-Forge-47.4.28.zip</code></p>
+      <a class="primary download" href="https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip">Download client pack <span aria-hidden="true">↗</span></a>
+      <p class="download-note">269,327,922 bytes · approximately 256.9 MiB</p>
+    </div>
+    <aside class="pack-side">
+      <div class="side-mark" aria-hidden="true">✓</div>
+      <h3>Tested and ready</h3>
+      <p>This package was installed and tested in the Forge 1.20.1 profile, including a successful connection to the server.</p>
+      <a href="https://github.com/hunterbloxham5-star/MC-server/releases/tag/client-pack-1.20.1-forge-47.4.28">View release notes and package history ↗</a>
+    </aside>
   </div>
+  <details class="checksum">
+    <summary>Show SHA-256 checksum</summary>
+    <p>Use this value to verify that your downloaded ZIP matches the published package.</p>
+    <code class="hash">c9dc6c7d191798281ce760aec79706e4e3f247cbdd288753d3a7596da1ad8fb8</code>
+  </details>
 </section>
 
 <section id="install" class="section">
   <p class="eyebrow">02 / INSTALLATION</p>
   <h2>Install in four steps.</h2>
+  <p class="sub">If you already have the correct Forge profile, you can start at step 3.</p>
   <div class="steps">
-    <article><i>01</i><h3>Install Minecraft Java</h3><p>Use the official launcher and confirm Java Edition starts normally.</p><a href="https://www.minecraft.net/download" target="_blank" rel="noopener">Minecraft Launcher ↗</a></article>
-    <article><i>02</i><h3>Install Forge</h3><p>Install Minecraft 1.20.1 — Forge 47.4.28. Choose “Install client”.</p><a href="https://files.minecraftforge.net/net/minecraftforge/forge/" target="_blank" rel="noopener">Official Forge downloads ↗</a></article>
-    <article><i>03</i><h3>Copy the pack files</h3><p>Extract the client ZIP. Copy its <code>mods</code>, <code>resourcepacks</code>, and <code>shaderpacks</code> folders into your Minecraft game directory. Usually this is:</p><code>%appdata%\.minecraft</code></article>
-    <article><i>04</i><h3>Launch and join</h3><p>Launch the Forge 1.20.1 profile, join the server, and accept the server resource-pack prompt.</p></article>
+    <article><span class="step-number">01</span><h3>Install Minecraft Java</h3><p>Install the official Minecraft Launcher and make sure Java Edition starts normally.</p><a href="https://www.minecraft.net/download" target="_blank" rel="noopener noreferrer">Get Minecraft Launcher ↗</a></article>
+    <article><span class="step-number">02</span><h3>Install Forge</h3><p>Install Minecraft 1.20.1 with Forge 47.4.28. Choose the client installation.</p><a href="https://files.minecraftforge.net/net/minecraftforge/forge/" target="_blank" rel="noopener noreferrer">Official Forge downloads ↗</a></article>
+    <article><span class="step-number">03</span><h3>Extract the client ZIP</h3><p>Download the package above and extract it. It contains three folders: <code>mods</code>, <code>resourcepacks</code>, and <code>shaderpacks</code>.</p></article>
+    <article><span class="step-number">04</span><h3>Copy and launch</h3><p>Close Minecraft, then copy those three folders into the game directory used by your Forge profile. Launch Forge 1.20.1 and join.</p></article>
   </div>
-  <aside class="tip"><b>Recommended:</b> Use a separate Minecraft installation for this server so other modpacks do not conflict with these files.</aside>
+  <div class="tip"><strong>Default Minecraft folder on Windows</strong><code>%appdata%\.minecraft</code><p>Press Win + R, paste the path, and press Enter. If your launcher profile uses a custom game directory, copy the folders there instead. Allow Windows to merge the folders if prompted.</p></div>
+  <div class="recommendation"><strong>Keep this pack separate from other modpacks.</strong><p>A dedicated game directory/profile prevents unrelated mods and resource packs from conflicting with this server setup.</p></div>
+</section>
+
+<section id="visuals" class="section visuals">
+  <p class="eyebrow">03 / RESOURCE PACKS &amp; SHADERS</p>
+  <h2>Set up the visuals.</h2>
+  <div class="visual-grid">
+    <article>
+      <span class="visual-label">RESOURCE PACKS</span>
+      <h3>Fresh Animations</h3>
+      <p>The package includes Fresh Animations v1.10.4 and seven compatible add-ons.</p>
+      <p>Choose one setup in Minecraft's Resource Packs menu:</p>
+      <ul>
+        <li><strong>Individual add-ons:</strong> Fresh Animations, Details, Emissive, Creepers, Classic Horses, Objects, and Spiders.</li>
+        <li><strong>Combined add-ons:</strong> Fresh Animations plus All Extensions.</li>
+      </ul>
+      <p class="callout">Do not enable All Extensions together with the individual add-ons because their content overlaps. Place enabled add-on packs above Fresh Animations in the priority list.</p>
+      <p>Entity Model Features (EMF) and Entity Texture Features (ETF) are included; keep them enabled for the entity visuals.</p>
+    </article>
+    <article>
+      <span class="visual-label">OPTIONAL GRAPHICS</span>
+      <h3>Shaders</h3>
+      <p>Two shader packs are included for optional visual enhancements. Shaders are not required to join the server.</p>
+      <p>If a shader causes a crash, low performance, or rendering problems, turn it off under <strong>Options → Video Settings → Shader Packs</strong> and launch again.</p>
+      <p>The server remains playable with shaders disabled.</p>
+    </article>
+  </div>
 </section>
 
 <section class="section dark" id="server-pack">
-  <p class="eyebrow">03 / SERVER RESOURCE PACK</p>
+  <p class="eyebrow">04 / SERVER RESOURCE PACK</p>
   <h2>Accept the server's pack.</h2>
-  <p class="sub">The production server automatically sends its required combined resource pack when you connect. Accept the prompt to see the intended textures, interface artwork, and entity visuals.</p>
-  <div class="pack-card"><div class="tag">AUTOMATIC · REQUIRED SERVER PACK</div><h3>Combined server resource pack</h3><p>You do not need to download this separately. If the prompt does not appear, edit the server entry in the launcher and set <b>Server Resource Packs</b> to <b>Enabled</b> or <b>Prompt</b>, then reconnect.</p></div>
+  <p class="sub">When you connect, the production server automatically sends its required combined resource pack. Accept the prompt to receive the server's intended textures and visual assets.</p>
+  <div class="server-pack-card">
+    <span class="tag">AUTOMATIC · REQUIRED</span>
+    <h3>Combined server resource pack</h3>
+    <p>You do not need to install this separately. If the prompt does not appear, open the server entry's settings in the Minecraft Launcher and set <strong>Server Resource Packs</strong> to <strong>Enabled</strong> or <strong>Prompt</strong>, then reconnect.</p>
+  </div>
 </section>
 
 <section id="help" class="section">
-  <p class="eyebrow">04 / TROUBLESHOOTING</p>
+  <p class="eyebrow">05 / TROUBLESHOOTING</p>
   <h2>Something not working?</h2>
   <div class="faq">
-    <details><summary>“Missing mods” or incompatible modded server</summary><p>Confirm that you launched Minecraft 1.20.1 with Forge 47.4.28 and installed the complete client pack. Avoid mixing files from other modpacks into this installation.</p></details>
-    <details><summary>The game crashes before the title screen</summary><p>First disable shaders and try again. If the crash continues, temporarily move the newest added mods out of the mods folder and share the latest crash report or latest.log.</p></details>
-    <details><summary>Shaders cause a crash or rendering problems</summary><p>Shaders are optional. Turn them off in Video Settings → Shader Packs. The server works without shaders.</p></details>
-    <details><summary>Where is the Minecraft game folder?</summary><p>Press Win + R, enter <code>%appdata%\.minecraft</code>, then press Enter.</p></details>
-    <details><summary>The server resource pack did not download</summary><p>Edit the server entry in the launcher and set Server Resource Packs to Enabled or Prompt. Reconnect to retry.</p></details>
+    <details><summary>“Missing mods” or incompatible modded server</summary><p>Confirm that you launched Minecraft 1.20.1 with Forge 47.4.28 and installed all three folders from the complete client pack. Avoid mixing files from unrelated modpacks into this profile.</p></details>
+    <details><summary>The game crashes before the title screen</summary><p>First disable shaders and try again. If the crash continues, check the newest file in <code>.minecraft\crash-reports</code> or share <code>.minecraft\logs\latest.log</code>.</p></details>
+    <details><summary>Shaders cause a crash or rendering problems</summary><p>Shaders are optional. Open Video Settings → Shader Packs and select no shader, then restart the game if needed.</p></details>
+    <details><summary>Fresh Animations or entity visuals do not work</summary><p>Enable EMF and ETF in the Mods list. In Resource Packs, enable Fresh Animations and either its individual add-ons or All Extensions—not both configurations at once.</p></details>
+    <details><summary>The server resource pack did not download</summary><p>Edit the server entry in the launcher and set Server Resource Packs to Enabled or Prompt. Reconnect to retry the download.</p></details>
+    <details><summary>Where is the Minecraft game folder?</summary><p>On Windows, press Win + R, enter <code>%appdata%\.minecraft</code>, and press Enter. If you use a custom game directory, use that directory instead.</p></details>
   </div>
 </section>
-<section class="join"><p class="eyebrow">READY WHEN YOU ARE</p><h2>Install. Launch. Join.</h2><p>If you need help, include your Minecraft version, Forge version, and latest crash log.</p></section>
+
+<section class="join">
+  <p class="eyebrow">READY WHEN YOU ARE</p>
+  <h2>Install. Launch. Join.</h2>
+  <p>Use the exact Minecraft and Forge versions above, install the complete pack, and accept the required server resource-pack prompt when you connect.</p>
+  <a class="primary" href="https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip">Get the client pack <span aria-hidden="true">↗</span></a>
+</section>
 </main>
-<footer><span>MC Server Player Guide</span><span>Unofficial community guide • Not affiliated with Mojang or Microsoft</span></footer>
+
+<footer><a href="#top">✦ MC Server Player Guide</a><span><a href="https://github.com/hunterbloxham5-star/MC-server">GitHub repository</a> · Unofficial community guide, not affiliated with Mojang or Microsoft.</span></footer>
 </body>
 </html>
