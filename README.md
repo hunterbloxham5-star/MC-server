@@ -16,16 +16,26 @@ The complete client package contains the client mods and dependencies, resource 
 
 - Package: `Minecraft-Client-1.20.1-Forge-47.4.28.zip`
 - Target: Minecraft 1.20.1 / Forge 47.4.28
-- Contents: **56 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
+- Contents: **53 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
 - Required dependencies include Patchouli 1.20.1-85-FORGE and Caelus 3.2.0+1.20.1.
-- Package size: **269,327,922 bytes** (approximately 256.9 MiB).
-- SHA-256: `c9dc6c7d191798281ce760aec79706e4e3f247cbdd288753d3a7596da1ad8fb8`
+- Package size: **267,636,525 bytes** (approximately 255.2 MiB).
+- SHA-256: `d72e537f9b0ea1d398d9ec386fef7f7b54d7fd53d999e69939288b99c8a9e118`
 - Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
 - Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
 **[Download the complete client pack](https://github.com/hunterbloxham5-star/MC-server/releases/download/client-pack-1.20.1-forge-47.4.28/Minecraft-Client-1.20.1-Forge-47.4.28.zip)**
 
 The release is updated in place when a revised client package is published. If the download is temporarily unavailable, check the [client-pack release page](https://github.com/hunterbloxham5-star/MC-server/releases/tag/client-pack-1.20.1-forge-47.4.28).
+
+### Fresh Mobs for Epic Fight
+
+Fresh Mobs for Epic Fight **1.0.0** is included in this client pack. It provides compatibility between Epic Fight's mob rendering and resource packs such as Fresh Animations.
+
+- Minecraft: 1.20.1
+- Required dependency: Epic Fight **20.14 or newer**
+- Client installation location: included in the ZIP at `mods/freshmobs_ef-1.20.1-1.0.0.jar`; copy the complete `mods` folder into your Minecraft game directory.
+- Download source: [Fresh Mobs for Epic Fight on CurseForge](https://www.curseforge.com/minecraft/mc-mods/fresh-mobs-for-epic-fight)
+- This mod is also installed on the server; players should install the included client copy.
 
 ### Fresh Animations resource packs
 
