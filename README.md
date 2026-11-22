@@ -16,10 +16,10 @@ The complete client package contains the client mods and dependencies, resource 
 
 - Package: `Minecraft-Client-1.20.1-Forge-47.4.28.zip`
 - Target: Minecraft 1.20.1 / Forge 47.4.28
-- Contents: **58 mod/dependency JARs**, 8 resource packs, and 2 optional shader packs.
+- Contents: **59 mod/dependency JARs**, 14 resource packs, and 2 optional shader packs.
 - Required dependencies include Patchouli 1.20.1-85-FORGE and Caelus 3.2.0+1.20.1.
-- Package size: **270,634,918 bytes** (approximately 258.1 MiB).
-- SHA-256: `db7774421c9580ef776489b13999f707fa977c06c4faa21101838c60d995bbb8`
+- Package size: **278,826,892 bytes** (approximately 265.8 MiB).
+- SHA-256: `39c74bbbb4b36348e7dbf03626cd7a1930778e1044cc0839f2c57634d10e9a6f`
 - Install: download and extract the ZIP, then copy the included `mods`, `resourcepacks`, and `shaderpacks` folders into your Minecraft game directory (usually `%appdata%\\.minecraft`). Allow Windows to merge folders if prompted.
 - Keep this pack in a separate Minecraft installation/profile if you use other modpacks.
 
@@ -37,6 +37,20 @@ Fresh Mobs for Epic Fight **1.0.0** is included in this client pack. It provides
 - Download source: [Fresh Mobs for Epic Fight on CurseForge](https://www.curseforge.com/minecraft/mc-mods/fresh-mobs-for-epic-fight)
 - This mod is also installed on the server; players should install the included client copy.
 
+
+### Fusion connected textures and visual resource packs
+
+The revised package adds **Fusion 1.3.16 for Forge 1.20.1** and six resource packs. Fusion is a required dependency for the Fusion resource packs.
+
+- **Fusion Connected Textures 1.3.16** — client mod; included in the ZIP at `mods/`. [CurseForge file](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures/files/9070201).
+- **Fusion Block Transitions** — resource pack; included at `resourcepacks/`. [CurseForge](https://www.curseforge.com/minecraft/texture-packs/fusion-block-transitions).
+- **Fusion Connected Glass** — resource pack; included at `resourcepacks/`. [CurseForge](https://www.curseforge.com/minecraft/texture-packs/fusion-connected-glass).
+- **Fusion Connected Blocks** — resource pack; included at `resourcepacks/`. [CurseForge](https://www.curseforge.com/minecraft/texture-packs/fusion-connected-blocks).
+- **Fusion Emissive Ores** — resource pack; included at `resourcepacks/`. [CurseForge](https://www.curseforge.com/minecraft/texture-packs/fusion-emissive-ores).
+- **Fusion 3D Items** — resource pack; included at `resourcepacks/`. [CurseForge](https://www.curseforge.com/minecraft/texture-packs/fusion-3d-items).
+- **Clear Glass Pack 1.20 to 1.20.1** — resource pack; included at `resourcepacks/`. [CurseForge file](https://www.curseforge.com/minecraft/texture-packs/clear-glass-pack/files/4582171).
+
+Copy the complete `mods` and `resourcepacks` folders from the ZIP into the game directory. Enable the resource packs you want in Minecraft's Resource Packs menu. These are client-side additions only: do not copy Fusion into the server's mods folder, and no server restart is required for these additions.
 
 ## Server mods and features
 
